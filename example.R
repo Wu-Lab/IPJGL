@@ -1,6 +1,6 @@
 rm(list = ls(all = TRUE))
 source('./source.scripts.R')
-library(Rmisc)
+
 data <- generate.data(
   n1,
   n2,
