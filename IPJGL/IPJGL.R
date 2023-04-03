@@ -76,9 +76,6 @@ IPJGL <- function(data,
                     lambda2,
                     normtype)
 
-      A <- (2 * lambda2 * Dnorm(V, normtype) + 2 * rho * I)
-      B <- (n1 * sigma1 + F + Q1) - rho * (theta2 + (V + W) + Z1)
-
       theta2 <-
         solve.theta((n2 * sigma2 - F + Q2) - rho * (theta1 - (V + W) + Z2),
                     V,
